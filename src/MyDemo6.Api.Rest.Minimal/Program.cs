@@ -23,7 +23,7 @@ var summaries = new[]
 
 app.MapGet("/weatherforecast", () =>
 {
-    var forecast = Enumerable.Range(1, 5).Select(index =>
+    var forecast = Enumerable.Range(1, 4).Select(index =>
        new WeatherForecast
        (
            DateTime.Now.AddDays(index),
@@ -34,6 +34,8 @@ app.MapGet("/weatherforecast", () =>
     return forecast;
 })
 .WithName("GetWeatherForecast");
+
+app.MapGet("/rltest", () => "hello");
 
 app.Run();
 
