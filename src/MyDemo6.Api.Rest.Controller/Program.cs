@@ -22,4 +22,6 @@ app.UseAuthorization();
 
 app.MapControllers();
 
+app.MapGet("/rltest", () => "hello from webapi");
+
 app.Run();
