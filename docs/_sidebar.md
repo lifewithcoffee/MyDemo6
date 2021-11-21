@@ -1,3 +1,4 @@
 - [Home](/)
 - **Projects**
   - [MyDemo6.Api.Rest.Minimal](MyDemo6.Api.Rest.Minimal.md)
+  - [MyDemo6.Api.Rest.Controller](MyDemo6.Api.Rest.Controller.md)
